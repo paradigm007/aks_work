@@ -10,7 +10,7 @@ steps:
     verbose: false
 
 - script: |
-   docker build --rm -f Dockerfile -t nginxAKS:latest .
+   docker build --rm -f Dockerfile -t nginxaks:latest .
    docker images
    docker tag nginxaks:latest acrtejit.azurecr.io/nginxaks:latest
    docker images
