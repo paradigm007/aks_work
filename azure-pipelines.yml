@@ -15,5 +15,5 @@ steps:
    docker tag simplenodeproj:latest acrtejit.azurecr.io/nginxAKS:latest
    docker images
    docker login -u acrtejit -p BUMI1sp0A88EJQU5gXX7hzXx6S+JycW4 acrtejit.azurecr.io
-   docker push acrtejit.azurecr.io/simplenodeproj:latest
+   docker push acrtejit.azurecr.io/nginxAKS:latest
  
